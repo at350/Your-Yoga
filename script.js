@@ -1,3 +1,12 @@
+const yogaPoses = [
+    {
+        name: '',
+        imgURL: '',
+        chair: false,
+        difficulty: 0
+    },
+]
+
 const breakT = [5,10,15,20,25];
 const breakLeast = 5;
 const breakMax = 25;
@@ -19,13 +28,11 @@ const intensity =  document.querySelectorAll('input[name = "intensity"');
 //     const minutes = document.getElementById("mins");
     
 // })
-
-let params = new URLSearchParams(window.location.href);
+let windowURL = `${window.location.href}`;
+let params = new URLSearchParams(windowURL.slice(windowURL.indexOf('?')));
 let userInput;
-if (params.user_time) numSeconds = params.user_time[0]*60;
-else numSeconds = 5*60;
-
-console.log(`Num seconds is ${numSeconds}`)
+if (params.has('user_time')) userInput = params.get('user_time')*60;
+else userInput = 5*60;
 
 for (let i=0; i<userInput;) {
     let time = 0;

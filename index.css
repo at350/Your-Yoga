@@ -1,0 +1,193 @@
+/* * {
+  border: 2px red solid;
+} */
+
+html,body {
+  /* max-width: 100vw;
+  min-height: 100vh; */
+  position: relative;
+}
+
+body {
+  /* min-height: 100%; */
+  /* border: 2px red solid; */
+  background: rgb(32,72,43);
+  background: linear-gradient(29deg, rgba(32,72,43,1) 0%, rgba(193,229,151,1) 100%);
+}
+
+/* .blur
+  {
+    position:absolute;
+    top: -250px;
+    left: -500px;
+    z-index: -1;
+    width: auto;
+    height:auto;
+  } */
+    
+.yoga
+  {
+    /* position:absolute;
+    top: 50px;
+    left: 170px;
+    z-index: -1; */
+    float: left;
+    margin-left: 8%;
+    margin-top: 45px;
+  }
+h1 
+{
+  font-family: cursive;
+  font-style: italic;
+  text-align: right;
+  color: #036319;
+  font-size: 600%;
+  margin-right: 5%;
+}
+h3 
+{
+  font-family: cursive;
+  text-align: right;
+  color: #000000;
+  font-size: 30px;
+  margin-right: 5%;
+}
+.align
+{
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.start
+{
+  align-self: right;
+  background-color: #bed1c3;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 100%;
+}
+.about
+{
+  /* width: 40%; */
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  font-size: 150%;
+  float:left;
+  padding: 10px;
+  background-color: #96A898;
+}
+.pose
+{
+  /* float:right;
+  margin-right: 9%; */
+  /* padding-top: 10%; */
+}
+
+.foot 
+{
+  background-color: #20582b;
+  font-family: Consolas, monaco, monospace;
+  /* color: #FFFFFF;  */
+  /* position: fixed;
+  bottom: 0;  
+  text-align: center;
+  margin-bottom: 5%; 
+  margin-left: 5%;  */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30%;
+}
+
+#startbutton
+{
+  background: #E8AB59; 
+  color: #FFFFFF;  
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#foot {
+  width: 100%;
+}
+
+.maincont {
+  /* margin-top: 20%; */
+}
+
+#splashCont {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  background-image: url(https://www.wipak.com/sites/all/themes/wipak/images/central-flume.webp);
+  background-repeat: no-repeat;
+  background-position-x: -190px;
+  background-position-y: -170px;
+  z-index: -1;
+}
+
+.container-fluid, .row {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1600px) {
+  #promo {
+    margin-top: 600px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #promo {
+    margin-bottom: 350px;
+  }
+}
+
+.topContent {
+  margin-top: 15%;
+}
+
+.vidSection {
+  position: relative;
+  right: 0;
+  padding: 100px;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+ margin-bottom: 5%; 
+  overflow: auto;
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+
+.vidSection video {
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.videoText
+{
+  position: relative;
+  z-index: 10;
+}

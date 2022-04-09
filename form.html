@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="form.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <!-- style="background-color:rgb(193, 229, 151);" -->
+        <body style="background-color:rgb(193, 229, 151);"></body>
+        <form class="inputform" action="doing_yoga.html"> 
+            <div> 
+                <label for="minutes">How many minutes would you like?</label>
+                <input type="number" id="mins" name="user_time" value = "20">
+                <br>
+            </div>
+            <fieldset>
+                <legend>Do you have a chair?</legend>
+
+                <div class="radio-row1">
+                    <div class="radio-wrapper1">
+                        <input type="radio" name="has_chair" id="Yes"> 
+                        <span></span>
+                    </div>
+                    <label for = "Yes"> Yes</label>
+                </div>
+
+                <div class="radio-row1">
+                    <div class="radio-wrapper1">
+                        <input type="radio" name="has_chair" id="No"> 
+                        <span></span>
+                    </div>
+                    <label for = "No"> No</label>
+                </div>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>What intensity level?</legend>
+                
+                <div class="radio-row2">
+                    <div class="radio-wrapper2">
+                        <input type="radio" name="intensity" id="Easy">   
+                        <span></span>
+                    </div>
+                    <label for = "Easy"> Easy </label>
+                </div>
+                
+                
+                <div class="radio-row2">
+                    <div class="radio-wrapper2">
+                        <input type="radio" name="intensity" id="Medium">   
+                        <span></span>
+                    </div>
+                    <label for = "Medium"> Medium </label>
+                </div>
+
+                <div class="radio-row2">
+                    <div class="radio-wrapper2">
+                        <input type="radio" name="intensity" id="Hard">   
+                        <span></span>
+                    </div>
+                    <label for = "Hard"> Hard </label>
+                </div>
+                 
+            </fieldset>
+
+            <input type="submit" value="Submit" id = "submitbt">
+            
+        </form>
+    </body>

@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+    position: relative;
+}
+  
+body {
+    min-height: 100vh;
+    /* border: 2px red solid; */
+    background: rgb(32,72,43);
+    background: linear-gradient(29deg, rgba(32,72,43,1) 0%, rgba(193,229,151,1) 100%);
+    background-attachment: scroll;
+}
+
+fieldset{
+    border-color: #FFFFFF; 
+    padding:15px;
+    width:100%;
+}
+
+
+.inputform{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    padding: 10%; 
+    font-size: 20pt;
+    vertical-align: middle;
+    height: 100%; 
+    margin: 0 auto; 
+}
+.buttons 
+{
+    color: #B29B6A; 
+}
+
+
+#mins{
+    vertical-align: middle; 
+    height: 25px; 
+}

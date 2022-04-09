@@ -1,0 +1,170 @@
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /*background-color: aqua;*/
+    margin: 0;
+    overflow: auto;
+}
+
+section{
+    width : 100%; 
+    height: 100%; 
+    color: #fff; 
+    /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+    background-size: 400%, 400%;
+    position: absolute; 
+    animation: change 10s ease-in-out infinite;  */
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+    width: 50%;
+    max-width: 50vw;
+    height: 50%;
+    max-height: 50vh;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animate {
+    /* background: linear-gradient(to left, #8942a8,#ba382f); */
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+    background-size: 400%, 400%;
+
+    animation: change 10s ease-in-out infinite; 
+    /* animation: animate 1s linear infinite; */
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.boxes {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.boxes li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 37px;
+    height: 37px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 35s linear infinite;
+    bottom: -120px;
+}
+
+.boxes li:nth-child(1) {
+    left:86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 1s;
+}
+
+.boxes li:nth-child(2) {
+    left:12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 7s;
+}
+
+.boxes li:nth-child(3) {
+    left:72%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 17s;
+}
+
+.boxes li:nth-child(4) {
+    left:44%;
+    width: 88px;
+    height: 88px;
+    animation-delay: 9s;
+}
+
+.boxes li:nth-child(5) {
+    left:22%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 25s;
+}
+
+.boxes li:nth-child(6) {
+    left:36%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 33s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-130vh) rotate(360deg);
+        opacity:0;
+    }
+}
+
+#view {
+    position: absolute;
+    width: 100%;
+    transform: translateY(20%);
+    margin-bottom: 30%;
+    height: 80vh;
+    z-index: 1;
+}
+
+a {
+    float: left;
+}
+
+#timebox {
+    height: 4vh;
+}
+
+svg {
+    position: absolute;
+    top:1%;
+    left:1%;
+}
+
+#XButton {
+    z-index: 1;
+}

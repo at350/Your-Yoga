@@ -11,8 +11,8 @@ html,body {
 body {
   /* min-height: 100%; */
   /* border: 2px red solid; */
-  background: rgb(32,72,43);
-  background: linear-gradient(29deg, rgba(32,72,43,1) 0%, rgba(193,229,151,1) 100%);
+  background: #027074;
+  background: linear-gradient(29deg, #027074 0%, #c9f5f7 100%);
 }
 
 /* .blur
@@ -40,15 +40,16 @@ h1
   font-family: cursive;
   font-style: italic;
   text-align: right;
-  color: #036319;
+  color: #026064;
   font-size: 600%;
   margin-right: 5%;
+  margin-bottom: 2%;
 }
 h3 
 {
   font-family: cursive;
   text-align: right;
-  color: #000000;
+  color: #0d2821;
   font-size: 30px;
   margin-right: 5%;
 }
@@ -77,7 +78,7 @@ h3
   font-size: 150%;
   float:left;
   padding: 10px;
-  background-color: #96A898;
+  background-color: #b4e9e3;
 }
 .pose
 {
@@ -88,7 +89,7 @@ h3
 
 .foot 
 {
-  background-color: #20582b;
+  background-color: #0d2821;
   font-family: Consolas, monaco, monospace;
   /* color: #FFFFFF;  */
   /* position: fixed;
@@ -107,8 +108,8 @@ footer {
 
 #startbutton
 {
-  background: #E8AB59; 
-  color: #FFFFFF;  
+  background: #ffbd59; 
+  color: #0d2821;  
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
@@ -147,7 +148,12 @@ footer {
 
 @media (min-width: 1600px) {
   #promo {
-    margin-bottom: 350px;
+    margin-top: 100px;
+    margin-bottom: 320px;
+  }
+
+  h1 {
+    font-size: 800%;
   }
 }
 

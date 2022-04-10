@@ -60,10 +60,10 @@ img {
 
 .animate {
     /* background: linear-gradient(to left, #8942a8,#ba382f); */
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+    background: linear-gradient(-45deg, #5ce1e6, #ffdd12, #00c2cb, #ffbd59, #03989E, #ffb24d, #027074, #ff914d, #0d2821, #ffffff) ;
     background-size: 400%, 400%;
 
-    animation: change 15s ease-in-out infinite; 
+    animation: change 30s ease infinite; 
     /* animation: animate 1s linear infinite; */
     min-width: 100%;
     min-height: 100vh;
@@ -163,8 +163,14 @@ svg {
     position: absolute;
     top:1%;
     left:1%;
+    z-index: 1;
 }
 
-#XButton {
-    z-index: 1;
+#mute {
+    top:1%;
+    left:4.5%;
+}
+
+#mute:hover {
+    cursor: pointer;
 }

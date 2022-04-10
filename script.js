@@ -132,296 +132,296 @@ const yogaPoses = [
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Crow Pose / Crane Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/12/Crow-Pose-Crane-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Eight-Angle Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2022/01/Eight-Angle-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Firefly Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/09/Firefly-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Four-Limbed Staff Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/11/Chaturanga_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Peacock Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2008/05/peacock-master.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Plank Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/05/25-yoga-journal-2022-C-andrew-clark-BC8I9887_1-2.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Pose Dedicated to the Sage Koundinya I',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/05/25-yoga-journal-2022-C-andrew-clark-BC8I9887_1-2.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Pose Dedicated to the Sage Koundinya II',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/eka-pada-koundinyasana-coby-kozlowski.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Scale Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/scale-pose.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Shoulder-Pressing Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2008/05/bhujapidasana-shoulder-pressing-pose.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Side Crow Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/side-crow-primary.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Wild Thing',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2009/08/2yp_283_0205_fnl.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Extended Hand-to-Big-Toe Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2009/08/2yp_283_0205_fnl.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Half Moon Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/Half-Moon-Pose_Andrew-Clark.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Handstand',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/11/Handstand_Andrew-Clark.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Dancer Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/Dancer-Pose-Lord-of-the-Dance_Andrew-Clark.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Side-Reclining Leg Lift',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2008/06/side-reclining-leg-lift.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Supported Headstand',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/CCD06236-1-scaled.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Supported Shoulderstand',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/2anatomy_284_05_fnl.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Warrior III Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/11/Warrior-3_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Bharadvajas Twist',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/CCD06138-scaled.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Half Lord of the Fishes Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/Half-Lord-of-the-Fishes-Mod-1_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Pose Dedicated to the Sage Marichi III',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/pose-dedicated-to-the-sage-marichi-iii_primary.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Rope Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/Rope-Pose_Andrew-Clark.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Revolved Head-to-Knee Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/10/Revolved-Head-to-Knee-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Revolved Side Angle Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/09/Revolved-Side-Angle-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale,
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Revolved Triangle Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/10/Revolved-Triangle-Pose_Andrew-Clark.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Cow Face Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/CCD09958-scaled.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Easy Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/11/Easy-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Fire Log Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/fire-log-pose-agnistambhasana.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Reclining Bound Angle Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/hp_288_13_bjk2.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'One-Legged King Pigeon Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/06/one-legged-king-pigeon-i_getty.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Bow Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/09/Bow-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Camel Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/10/Camel-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Cobra Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/CCD09906-scaled.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Fish Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2017/01/fish-pose.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Half Frog Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2022/03/321-yoga-journal-2022-C-andrew-clark-BC8I0728_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'King Pigeon Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/2yogapedia_273_13_fnl.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Locust Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/CCD04564-scaled.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'One-Legged King Pigeon Pose II',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2008/05/one-legged-king-pigeon-ii-primary.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Sphinx Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/32anatomy_290_5169_bjk.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Wheel Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/Upward-Facing-Bow-Wheel_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Upward Facing Two-Foot Staff Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/upward-facing-two-foot-staff-pose.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Upward-Facing Dog Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/upward-facing-dog-primary.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Ear Pressure Pose',
+        imgURL: 'https://cdn.doyou.com/wp/2013/11/Ear-Pressure-Pose-Karnapidasana.jpg',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Goddess Pose',
+        imgURL: 'https://cdn.doyou.com/wp/2013/11/Goddess-Pose.jpg',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Embryo Pose',
+        imgURL: 'https://cdn.doyou.com/wp/2013/11/Embryo-Pose-Yoga.jpg',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Bound Lotus',
+        imgURL: 'https://cdn.doyou.com/wp/2013/11/Bound-Lotus-Pose-Yoga.jpg',
         chair: false,
         difficulty: 0
     },
     {
-        name: '',
-        imgURL: '',
+        name: 'Super Soldier Pose',
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2016/05/super-soldier-pose.jpg?width=730',
         chair: false,
         difficulty: 0
     }
@@ -530,10 +530,16 @@ let showYoga = function(start) {
     counter = timeList[start];
     if (isBreak) {
         yogaPos.innerText = 'BREAK TIME';
-        yogaImg
+        yogaImg.src = 'break.png';
     }
     else {
-        yogaPos.innerText = 'THE YOGA POSITION';
+        yogaPos.innerText = yogaPose[curIndex];
+        yogaImg.src = yogaPose[curIndex].imgURL;
+        curIndex++;
+        if (curIndex >= yogaPoses.length) {
+            curIndex = 0;
+            yogaPoses = shuffle(yogaPoses);
+        }
     }
     const timer = setInterval(() => {
         timeRemain.innerText = `Time Remaining: ${counter}`

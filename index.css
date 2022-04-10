@@ -37,7 +37,7 @@ body {
   }
 h1 
 {
-  font-family: cursive;
+  font-family: 'WindSong', cursive;
   font-style: italic;
   text-align: right;
   color: #026064;
@@ -47,10 +47,10 @@ h1
 }
 h3 
 {
-  font-family: cursive;
+  font-family: 'Hi Melody', cursive;
   text-align: right;
   color: #0d2821;
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 5%;
 }
 .align
@@ -200,4 +200,10 @@ footer {
 
 p {
   vertical-align: middle;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#intro {
+  border: 3px solid #ffbd59;
 }

@@ -46,6 +46,10 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+h1 {
+    text-transform: capitalize;
+}
+
 img {
     display: block;
     object-fit: contain;
@@ -61,9 +65,9 @@ img {
 .animate {
     /* background: linear-gradient(to left, #8942a8,#ba382f); */
     background: linear-gradient(-45deg, #5ce1e6, #ffdd12, #00c2cb, #ffbd59, #03989E, #ffb24d, #027074, #ff914d, #0d2821, #ffffff) ;
-    background-size: 400%, 400%;
+    background-size: 1000%, 1000%;
 
-    animation: change 30s ease infinite; 
+    animation: change 150s ease infinite; 
     /* animation: animate 1s linear infinite; */
     min-width: 100%;
     min-height: 100vh;

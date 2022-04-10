@@ -26,15 +26,16 @@ body {
   } */
     
 .yoga
-  {
-    /* position:absolute;
-    top: 50px;
-    left: 170px;
-    z-index: -1; */
-    float: left;
-    margin-left: 8%;
-    margin-top: 45px;
-  }
+{
+  /* position:absolute;
+  top: 50px;
+  left: 170px;
+  z-index: -1; */
+  float: left;
+  margin-left: 8%;
+  margin-top: 45px;
+}
+
 h1 
 {
   font-family: 'WindSong', cursive;
@@ -139,14 +140,14 @@ footer {
   padding: 0;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1860px) {
   #promo {
     margin-top: 600px;
     margin-bottom: 30px;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1860px) {
   #promo {
     margin-top: 100px;
     margin-bottom: 320px;
@@ -206,4 +207,11 @@ p {
 
 #intro {
   border: 3px solid #ffbd59;
+}
+
+input {
+  border: 3px solid #ffbd59;
+  color: #0d2821;  
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }

@@ -513,21 +513,26 @@ const yogaImg = document.querySelector('img');
 
 let counter = 5;
 const initTimer = setInterval(()=> {
-    timeRemain.innerText = `Starts in ${counter} seconds`
-    counter--;
     if (counter<0) {
         clearInterval(initTimer);
         showYoga(0);
     }
+    timeRemain.innerText = `Starts in ${counter} seconds`
+    counter--;
 }, 1000);
 
 yogaPoses = shuffle(yogaPoses);
 
 let curIndex = -1;
 
+let timeElapsed = 0;
+
+let endYog = false;
+
 let showYoga = function(start) {
     curIndex++;
     counter = timeList[start];
+    timeElapsed += counter;
     if (isBreak) {
         yogaPos.innerText = 'BREAK TIME';
         yogaImg.src = 'break.png';
@@ -541,15 +546,18 @@ let showYoga = function(start) {
         yogaImg.src = yogaPoses[curIndex].imgURL;
     }
     const timer = setInterval(() => {
-        timeRemain.innerText = `Time Remaining: ${counter}`
-        counter--;
         if (counter<0)
         {
             isBreak = !isBreak;
-            if (start!=timeList.length) showYoga(start+1);
-            else endYoga();
+            if (timeElapsed<userInput) showYoga(start+1);
+            else {
+                endYoga();
+                endYog = true;
+            }
             clearInterval(timer);
         }
+        if (!endYog) timeRemain.innerText = `Time Remaining: ${counter}`
+        counter--;
     }, 1000);
 }
 
@@ -558,7 +566,7 @@ let showYoga = function(start) {
 
 let endYoga = () => {
     yogaPos.innerText = 'head back to the home page :)';
-    timeRemain.innerText = 'Finished!'
+    timeRemain.innerText = 'Finished!';
     yogaImg.src = '';
 };
 

@@ -33,7 +33,9 @@ body {
   z-index: -1; */
   float: left;
   margin-left: 4%;
+  object-fit: contain;
   margin-top: 45px;
+  width: 400px;
 }
 
 h1 
@@ -148,7 +150,13 @@ footer {
   }
 
   p {
-    
+    font-size:22px;
+  }
+}
+
+@media (max-width: 500px) {
+  .yoga {
+    width: 95%;
   }
 }
 

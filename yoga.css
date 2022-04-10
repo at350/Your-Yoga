@@ -62,9 +62,13 @@ img {
     margin-right: auto;
 }
 
+h1,h2,img {
+    transition: 0.3s ease;
+}
+
 .animate {
     /* background: linear-gradient(to left, #8942a8,#ba382f); */
-    background: linear-gradient(-45deg, #5ce1e6, #ffdd12, #00c2cb, #ffbd59, #03989E, #ffb24d, #027074, #ff914d, #0d2821, #ffffff) ;
+    background: linear-gradient(-45deg, #0d2821, #027074, #03989E, #00c2cb, #5ce1e6, #ffdd12, #ffbd59, #ffb24d, #ff914d, #0d2821);
     background-size: 1000%, 1000%;
 
     animation: change 150s ease infinite; 
@@ -166,13 +170,13 @@ a {
 svg {
     position: absolute;
     top:1%;
-    left:1%;
+    left:15px;
     z-index: 1;
 }
 
 #mute {
     top:1%;
-    left:4.5%;
+    left:60px;
 }
 
 #mute:hover {

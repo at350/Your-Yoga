@@ -1,4 +1,4 @@
-const yogaPoses = [
+let yogaPoses = [
     {
         name: 'Big Toe Pose',
         imgURL: 'https://www.yogajournal.com/wp-content/uploads/2007/08/big-toe-pose.jpg?crop=535:301&width=1070&enable=upscale',
@@ -283,7 +283,7 @@ const yogaPoses = [
     },
     {
         name: 'Revolved Side Angle Pose',
-        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/09/Revolved-Side-Angle-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale,
+        imgURL: 'https://www.yogajournal.com/wp-content/uploads/2021/09/Revolved-Side-Angle-Pose_Andrew-Clark_1.jpg?crop=535:301&width=1070&enable=upscale',
         chair: false,
         difficulty: 0
     },
@@ -451,8 +451,8 @@ const start = () => {
 const breakT = [5,10,15,20,25];
 const breakLeast = 5;
 const breakMax = 25;
-// const poseT = [25,30,35,40,45];
-const poseT = [3]; // change at the end to the other poseT (amt of time doing pose)
+const poseT = [25,30,35,40,45];
+// const poseT = [3]; // change at the end to the other poseT (amt of time doing pose)
 const poseLeast = 25;
 const poseMax = 45;
 let timeList = [];
@@ -461,7 +461,6 @@ let isBreak = false;
 
 const submitbtn = document.querySelector('submitbt');
 const chair = document.querySelectorAll('input[name = "has_chair"'); 
-const time = document.getElementById("mins").value;
 const intensity =  document.querySelectorAll('input[name = "intensity"');
 
 // const form = document.querySelector('.inputform');
@@ -524,22 +523,22 @@ const initTimer = setInterval(()=> {
 
 yogaPoses = shuffle(yogaPoses);
 
-let curIndex = 0;
+let curIndex = -1;
 
 let showYoga = function(start) {
+    curIndex++;
     counter = timeList[start];
     if (isBreak) {
         yogaPos.innerText = 'BREAK TIME';
         yogaImg.src = 'break.png';
     }
     else {
-        yogaPos.innerText = yogaPose[curIndex];
-        yogaImg.src = yogaPose[curIndex].imgURL;
-        curIndex++;
         if (curIndex >= yogaPoses.length) {
             curIndex = 0;
             yogaPoses = shuffle(yogaPoses);
         }
+        yogaPos.innerText = yogaPoses[curIndex].name;
+        yogaImg.src = yogaPoses[curIndex].imgURL;
     }
     const timer = setInterval(() => {
         timeRemain.innerText = `Time Remaining: ${counter}`
@@ -558,7 +557,9 @@ let showYoga = function(start) {
 
 
 let endYoga = () => {
-
+    yogaPos.innerText = 'head back to the home page :)';
+    timeRemain.innerText = 'Finished!'
+    yogaImg.src = '';
 };
 
 function shuffle(array) {
